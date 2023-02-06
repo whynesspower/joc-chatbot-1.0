@@ -1,0 +1,89 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey! ^_^",
+        "Hello, Welcome to the JOC Website! ^_^",
+        "Hi there, what can I do for you?! ^_^",
+        "Hi there, how can I help?! ^_^"
+      ]
+    },
+    {
+      "tag": "tata",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "bye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting the JOC Website",
+        "Have a nice day ahead",
+        "Bye! Come back again soon!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!! ^_^",
+        "Any time! ^_^",
+        "My pleasure! ^_^"
+      ]
+    },
+    {
+      "tag": "info",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "JOC",
+        "Tell me something",
+        "Jayabheri Orange County",
+        "flats"
+      ],
+      "responses": [
+        "we are a premium residential gated community project in Hyderabad",
+        "Comprising hi-end 3 & 4 bhk apartments spread across four,JOC has 14 storey towers. It also houses duplex sky villa on the 13th and 14th floors. Replete with all the modern amenities, the project offers abundance of open spaces."
+      ]
+    },
+    {
+      "tag": "address",
+      "patterns": [
+        "Address?",
+        "Phone Number?",
+        "Email",
+        "Instagram"
+      ],
+      "responses": [
+        "We are available at our Email address: info@jayabherigroup.com, Thanks!",
+        "You can contact us through the Contact Us page or goto http://joc.pythonanywhere.com/contact"
+      ]
+    },
+    {
+      "tag": "comedy",
+      "patterns": [
+        "Tell me a joke",
+        "Tell me something funny"
+      ],
+      "responses": [
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
